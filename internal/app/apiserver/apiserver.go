@@ -11,3 +11,10 @@ func NewAPIServer() *APIServer {
 	// Инициализируем APIServer
 	return &APIServer{}
 }
+
+// Start - запуск APIServer
+//
+// Возвращает ошибку в случае возникновения
+func (s *APIServer) Start() error {
+	return nil
+}
